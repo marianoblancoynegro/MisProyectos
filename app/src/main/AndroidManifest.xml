@@ -32,6 +32,22 @@
             android:name=".CicloDeVida"
             android:label="@string/title_activity_ciclo_de_vida" >
         </activity>
+        <activity
+            android:name=".Actividad2_2"
+            android:label="@string/title_activity_actividad2_2" >
+            <intent-filter>
+                <action android:name="com.example.alumnot.misproyectos.actividad2_2" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Actividad2_1"
+            android:label="@string/title_activity_actividad2_1" >
+            <intent-filter>
+                <action android:name="com.example.alumnot.misproyectos.actividad2_2" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
     </application>
 
 </manifest>

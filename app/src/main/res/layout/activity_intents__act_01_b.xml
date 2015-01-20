@@ -8,6 +8,16 @@
 
     <TextView android:text="Esta es la segunda actividad"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content" />
+        android:layout_height="wrap_content"
+        android:id="@+id/textView" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Esto lanza al error  que se ha creado en el manifest dos  intents con el mismo nombre"
+        android:id="@+id/button"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:onClick="accion01" />
 
 </RelativeLayout>

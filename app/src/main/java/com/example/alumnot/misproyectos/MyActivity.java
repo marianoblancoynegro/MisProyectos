@@ -15,7 +15,7 @@ import android.widget.ListView;
 public class MyActivity extends ListActivity
 {
 
-    private String practicas[]={"Actividad1","CicloDeVida","Intents_Act_01","Actividad3"};
+    private String practicas[]={"Actividad1","CicloDeVida","Intents_Act_01","Actividad3","Actividad2_2","Actividad2_1"};
     final static String TAG= MyActivity.class.getName();
     @Override
     protected void onCreate(Bundle savedInstanceState)

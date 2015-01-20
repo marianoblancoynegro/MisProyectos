@@ -8,5 +8,7 @@
     <string name="title_activity_intents__act_01">Intents_Act_01</string>
     <string name="title_activity_intents__act_01_b">Intents_Act_01_b</string>
     <string name="title_activity_ciclo_de_vida">CicloDeVida</string>
+    <string name="title_activity_actividad2_2">Actividad2_2</string>
+    <string name="title_activity_actividad2_1">Actividad2_1</string>
 
 </resources>

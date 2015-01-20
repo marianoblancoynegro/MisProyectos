@@ -1,30 +1,24 @@
 package com.example.alumnot.misproyectos;
 
-import android.content.Intent;
 import android.support.v7.app.ActionBarActivity;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
-import android.view.View;
 
 
-public class Intents_Act_01_b extends ActionBarActivity {
+public class Actividad2_1 extends ActionBarActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_intents__act_01_b);
+        setContentView(R.layout.activity_actividad2_1);
     }
 
-    public void accion01(View vista)
-    {
-        startActivity(new Intent("com.example.alumnot.misproyectos.actividad2_2"));
-    }
 
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         // Inflate the menu; this adds items to the action bar if it is present.
-        getMenuInflater().inflate(R.menu.menu_intents__act_01_b, menu);
+        getMenuInflater().inflate(R.menu.menu_actividad2_1, menu);
         return true;
     }
 
