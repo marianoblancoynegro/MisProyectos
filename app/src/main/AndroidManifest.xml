@@ -22,11 +22,15 @@
         </activity>
         <activity
             android:name=".Intents_Act_01"
-            android:label="@string/title_activity_intents__act_01" >
+            android:label="@string/title_activity_intents__act_01"
+            android:parentActivityName="com.example.alumnot.misproyectos.MyActivity"
+            >
         </activity>
         <activity
             android:name=".Intents_Act_01_b"
-            android:label="@string/title_activity_intents__act_01_b" >
+            android:label="@string/title_activity_intents__act_01_b"
+            android:parentActivityName="com.example.alumnot.misproyectos.Intents_Act_01"
+            >
         </activity>
         <activity
             android:name=".CicloDeVida"

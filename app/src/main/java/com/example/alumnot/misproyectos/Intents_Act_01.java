@@ -7,6 +7,7 @@ import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.Button;
+import android.widget.Toast;
 
 
 public class Intents_Act_01 extends ActionBarActivity {
@@ -22,8 +23,17 @@ public class Intents_Act_01 extends ActionBarActivity {
 
     public void acccion01(View vista)
     {
-        startActivity(new Intent(this,Intents_Act_01_b.class));
+        int codigoRespuesta=0;//-1 si no queremos esperar ningun resultado
+        startActivityForResult(new Intent(this, Intents_Act_01_b.class),codigoRespuesta);
     }
+
+    @Override
+    protected void onActivityResult(int requestCode, int resultCode, Intent data) {
+        super.onActivityResult(requestCode, resultCode, data);
+
+        //Toast.makeText(getApplicationContext(), (CharSequence) data.getData(), 500).show();
+    }
+
 
     @Override
     public boolean onCreateOptionsMenu(Menu menu)
